@@ -1,5 +1,5 @@
-function greetFriend(name) {
-  console.log(`Hello, ${name}!`)
+function greetFriend(name){
+  return `Hello, ${name}!`;
 }
 
 // Do not edit this line;

@@ -1,5 +1,11 @@
-function productOfAnyAmountOfNumbers(...args) {
-  // Insert code here;
+function productOfAnyAmountOfNumbers(...args){
+  let product = 1;
+
+  for(i in args){
+    product *= args[i];
+  }
+
+  return product;
 }
 
 // Do not edit this line;
